@@ -2,19 +2,53 @@
 
 
 body {
-background-color: #333
+background-color: #333;
+}
+section.gallery {
+	background-color:#000000;
+	padding: 10px;
+	border-top: 2px solid white;
+	border-radius: 15px 15px 0px 0px;
+	
 }
 
- logo {
+section {
+	background-color:#000000;
+	padding: 10px;
+	border-radius: 0px 0px 15px 15px;
+	border-bottom: 2px solid white;
+	
+}
+
+
+header {
+	padding-bottom: 35px;
+	
+}
+footer {
+	
+	
+	
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	
+	
+}
+
+ header img {
     height: 100px;
 	float: right;
+	
 }
 
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: #333;
 }
@@ -31,12 +65,13 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+section p {
+	color: white;
+	text-align: center;
 }
-
-.active {
-    background-color: #4CAF50;
+section h2 {
+color: white; 
+text-align: center;
 }
 
 * {box-sizing:border-box}
