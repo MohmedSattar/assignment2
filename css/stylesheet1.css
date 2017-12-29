@@ -109,6 +109,9 @@ button {
 	border: 3px solid #a1a5ad;
 	margin-bottom: 45px;
 	border-radius: 15px;
+	height: 50px;
+	width: 100px;
+
 
 }
 
@@ -226,4 +229,77 @@ font-family: 'Nunito', sans-serif;
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+/* Responsive */
+@media screen and (max-width: 500px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 20px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .slideshow-container {
+        max-width: 400px;
+    }
+
+    button {
+        background-color: #ffffff;
+        color: black;
+        border: 3px solid #a1a5ad;
+        margin-bottom: 45px;
+        border-radius: 15px;
+        height: 50px;
+        width: 60px;
+    }
+    header img {
+        height: 60px;
+        float: right;
+
+    }
+    footer p {
+
+        font-size: 10px;
+
+    }
+
+    section p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 20px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .slideshow-container {
+        max-width: 400px;
+    }
+
+    button {
+        background-color: #ffffff;
+        color: black;
+        border: 3px solid #a1a5ad;
+        margin-bottom: 45px;
+        border-radius: 15px;
+        height: 50px;
+        width: 60px;
+    }
+    header img {
+        height: 60px;
+        float: right;
+
+    }
+    footer p {
+
+        font-size:10px;
+
+    }
+    section p {
+
+    }
 }

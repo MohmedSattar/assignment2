@@ -71,13 +71,7 @@ button:hover {
 }
 
 
-section {
-	background-color:#000000;
-	padding: 10px;
-	border-radius: 15px 15px 15px 15px;
-	border-bottom: 2px solid white;
-	
-}
+
 
 
 header {
@@ -93,7 +87,8 @@ header h1 {
 }
 footer {
 	
-
+	margin-top: 70px;
+	margin-left: 600px;
 	
 }
 
@@ -148,6 +143,7 @@ font-family: 'Nunito', sans-serif;
         width: 60%;
 		float: left;
 		border-radius: 15px 15px 15px 15px;
+		display: inline-block;
 	
        }
 
@@ -155,6 +151,9 @@ aside {
 	
 	color: white;
 	background-color:#000000;
+	padding: 10px;
+	border-radius: 15px 15px 15px 15px;
+	border-bottom: 2px solid white;
 	
 
 }
@@ -196,11 +195,18 @@ aside {
 		font-size: 10px;
 	}
 
-    figure img {
-        height: 100px;
-        width: 150px;
+    #map {
+        height: 200px;
+        width: 40%;
         border-radius: 10%;
 
+    }
+
+    aside p {
+        font-size: 10px;
+    }
+    aside h2 {
+        font-size: 12px;
     }
 }
 
@@ -232,21 +238,17 @@ aside {
 	}
 	footer p {
 
-		font-size: 10px;
+		font-size:10px;
 
 	}
 	section p {
         font-size: 10px;
 	}
 
-    section h2 {
-        font-size: 12px;
-    }
+	#map {
+		height: 200px;
+		width: 40%;
+		border-radius: 10%;
 
-    figure img {
-        height: 100px;
-        width: 150px;
-        border-radius: 10%;
-
-    }
+	}
 }

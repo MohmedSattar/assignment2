@@ -2,12 +2,31 @@
 <html>
 <head>
 <title>Contact Page</title>
-<link rel="stylesheet" href="css/stylesheet2.css">
+<link rel="stylesheet" href="css/stylesheet3.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito|Russo+One" rel="stylesheet">
+	<script>
+      function initMap() {
+        var uluru = {lat: 52.6369, lng:1.1398};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtLH6VJsyZrSba1UnFeDpKt9xSMhhWdE0&callback=initMap">
+    </script>
 </head>
 <header>
 <h1>Contact</h1>
+
+<a href="index.html">
 <img src="images/Logo.png" alt="Logo">
+</a>
 
 </header>
 
@@ -32,9 +51,29 @@
 
 
 <button onclick="openNav()">Open Navigation</button>
-</body>
 <section>
+ <div id="map"></div>
+ <section>
+ 
+ 
+ <aside>
+	<h2>Contact Info:</h2>
+	<p>Phone Number: 01162622345</p>
+	<p>Email: LE2Cars@gmail.com</p>
+	<p> Address: 234 Charles Street</p>
+	<p>Leicester</p>
+	<p>LE2 OTU</p>
+ </aside>
+ 
+ 
+ 
+  
 
 
-
-</section>
+	
+<footer>
+<p>P1416408x</p>
+<p>LE2 Cars	&copy;</p>
+</footer>
+	
+</body>
