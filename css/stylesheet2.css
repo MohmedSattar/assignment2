@@ -1,0 +1,142 @@
+body {
+background-color: #333;
+margin: 0;
+}
+
+
+.overlay {
+    
+    height: 100%;
+    position: fixed;
+	width: 0; 
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0, 0.9); 
+	z-index: 1; 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+}
+
+
+.overlay-content {
+	margin-top: 30px; 
+    position: relative;
+    top: 25%; 
+    width: 100%; 
+    text-align: center;
+   
+}
+
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #ffffff;
+    display: block; 
+	font-family: 'Nunito', sans-serif;
+    transition: 0.5s; 
+}
+
+
+.overlay a:hover {
+    color: #a1a5ad;
+}
+
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+button {
+	background-color: #ffffff;
+	color: black;
+	border: 3px solid #a1a5ad;
+	margin-bottom: 45px;
+	border-radius: 15px;
+
+}
+
+button:hover {
+	background-color: #a1a5ad;
+	color: white;
+	
+
+
+}
+
+
+section {
+	background-color:#000000;
+	padding: 10px;
+	border-radius: 15px 15px 15px 15px;
+	border-bottom: 2px solid white;
+	
+}
+
+
+header {
+	padding-bottom: 35px;
+	
+	
+}
+
+header h1 {
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	font-size: 50px;
+}
+footer {
+	
+	
+	
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	
+	
+}
+
+ header img {
+    height: 100px;
+	float: right;
+	
+	
+}
+
+figure img {
+	height: 200px;
+	width: 250px;
+	border-radius: 10%;
+	-webkit-transition: width 2s;
+}
+
+figure img:hover {
+	width: 300px
+}
+figcaption {
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 10px;
+}
+
+
+
+section p {
+	color: white;
+	text-align: left;
+	font-family: 'Nunito', sans-serif;
+
+}
+section h2 {
+color: white; 
+text-align: left;
+font-family: 'Nunito', sans-serif;
+
+}

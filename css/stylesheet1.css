@@ -3,6 +3,7 @@
 
 body {
 background-color: #333;
+margin: 0;
 }
 section.gallery {
 	background-color:#000000;
@@ -18,12 +19,21 @@ section {
 	border-radius: 0px 0px 15px 15px;
 	border-bottom: 2px solid white;
 	
+	
+	
 }
 
 
 header {
 	padding-bottom: 35px;
 	
+	
+}
+
+header h1 {
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	font-size: 50px;
 }
 footer {
 	
@@ -34,6 +44,7 @@ footer {
 footer p {
 	text-align: center;
 	color: white;
+	font-family: 'Nunito', sans-serif;
 	
 	
 }
@@ -45,33 +56,81 @@ footer p {
 }
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    background-color: #333;
+.overlay {
+    
+    height: 100%;
+    position: fixed;
+	width: 0; 
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0, 0.9); 
+	z-index: 1; 
+    overflow-x: hidden; 
+    transition: 0.5s; 
 }
 
-li {
-    float: left;
-}
 
-li a {
-    display: block;
-    color: white;
+.overlay-content {
+	margin-top: 30px; 
+    position: relative;
+    top: 25%; 
+    width: 100%; 
     text-align: center;
-    padding: 14px 16px;
+   
+}
+
+
+.overlay a {
+    padding: 8px;
     text-decoration: none;
+    font-size: 40px;
+    color: #ffffff;
+    display: block; 
+	font-family: 'Nunito', sans-serif;
+    transition: 0.5s; 
+}
+
+
+.overlay a:hover {
+    color: #a1a5ad;
+}
+
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+button {
+	background-color: #ffffff;
+	color: black;
+	border: 3px solid #a1a5ad;
+	margin-bottom: 45px;
+	border-radius: 15px;
+
+}
+
+button:hover {
+	background-color: #a1a5ad;
+	color: white;
+	
+
+
 }
 
 section p {
 	color: white;
 	text-align: center;
+	font-family: 'Nunito', sans-serif;
+
 }
 section h2 {
 color: white; 
 text-align: center;
+font-family: 'Nunito', sans-serif;
+
 }
 
 * {box-sizing:border-box}
@@ -152,6 +211,7 @@ text-align: center;
 
 /* Fading animation */
 .fade {
+	
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.0s;
   animation-name: fade;
